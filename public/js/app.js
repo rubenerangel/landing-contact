@@ -37311,6 +37311,7 @@ $(document).ready(function () {
       obj[item.name] = item.value;
       return obj;
     }, {});
+    $(this)[0].reset();
     axios.request({
       method: "POST",
       url: "/contacts/add",

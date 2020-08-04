@@ -42,6 +42,8 @@ $(document).ready(function() {
       return obj;
     }, {});
 
+    $(this)[0].reset();
+
     axios.request({
       method: "POST",
       url: `/contacts/add`,
