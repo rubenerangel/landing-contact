@@ -53,6 +53,10 @@ $(document).ready(function() {
     })
     .then(resp => {
       console.log('resp', resp.data.message);
+      if (resp.data.message) {
+        $('p.success').html(resp.data.message);
+        $('#modal-info').modal('show'); 
+      }
     })
     .catch(error => {
       console.log(error);

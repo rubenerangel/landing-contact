@@ -37321,6 +37321,11 @@ $(document).ready(function () {
       }
     }).then(function (resp) {
       console.log('resp', resp.data.message);
+
+      if (resp.data.message) {
+        $('p.success').html(resp.data.message);
+        $('#modal-info').modal('show');
+      }
     })["catch"](function (error) {
       console.log(error);
     });

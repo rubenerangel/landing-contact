@@ -15578,3 +15578,8 @@ a.text-dark:focus {
   font-size: 0.9rem;
 }
 
+.modal .success {
+  font-size: 1.2rem;
+  color: green;
+}
+
