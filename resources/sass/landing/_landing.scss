@@ -1,0 +1,67 @@
+.landing {
+  font-family: $font-family-sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  
+  h1 {
+    font-weight: 700;
+    color: #5e5d5d;
+  }
+
+  p {
+    color: #7f7e7e;
+  }
+
+  .introduction {
+    p {
+      padding: 0 0.5rem;
+      text-indent: 5%;
+      font-weight: 600;
+    }
+  }
+
+  form {
+    padding: 2rem;
+    border-radius: 1.3rem;
+    -webkit-box-shadow: 0px 0px 7px 7px rgba(5,0,5,0.1);
+    -moz-box-shadow: 0px 0px 7px 7px rgba(5,0,5,0.1);
+    box-shadow: 0px 0px 7px 7px rgba(5,0,5,0.1);
+
+    label {
+      color: #5e5d5d;
+      font-weight: 600;
+    }
+
+    input::placeholder {
+      color: #d6d4d4;
+    }
+
+    .btn-accent {
+      background-color: $accent;
+      border-color: $accent;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+  }
+
+  .actions {
+    color: #bfbdbd;
+    font-weight: 300;
+
+    i {
+      min-width: 20px;
+      max-width: 20px;
+      font-size: 1.3rem;
+      font-weight: 300;
+    }
+
+    span {
+      font-size: 0.9rem;
+    }
+
+    
+  }
+}
